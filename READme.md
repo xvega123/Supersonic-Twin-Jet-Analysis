@@ -38,7 +38,7 @@ Due to the massive size of the high-fidelity CFD datasets and ongoing research r
 ### 1. Hybrid RANS-LES with AMR
 We utilized IDDES to resolve the "grey area" between RANS and LES. To capture unsteady vortical structures efficiently, we implemented a custom Adaptive Mesh Refinement (AMR) criterion based on resolving 80% of the Turbulent Kinetic Energy (TKE).
 
-* **Solver:** ANSYS Fluent (User Defined Functions for AMR)
+* **Solver:** StarCCM+ (User Defined Functions for AMR)
 * **Schemes:** AUSM+ Flux Splitting, Dual Time Stepping (2nd order)
 * **AMR Criteria:** Balanced criterion based on integral length scale and grid size.
 
